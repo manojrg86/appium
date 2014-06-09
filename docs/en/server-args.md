@@ -62,6 +62,7 @@ All flags are optional, but some are required in conjunction with certain others
 |`--selendroid-port`|8080|Local port used for communication with Selendroid|`--selendroid-port 8080`|
 |`--chromedriver-port`|9515|Port upon which ChromeDriver will run|`--chromedriver-port 9515`|
 |`--chromedriver-executable`|null|ChromeDriver executable full path||
+|`--webkit-port`|27753|The port that ios_webkit_debug proxy is running on  default value is 27753|
 |`--use-keystore`|false|(Android-only) When set the keystore will be used to sign apks.||
 |`--keystore-path`|/Users/user/.android/debug.keystore|(Android-only) Path to keystore||
 |`--keystore-password`|android|(Android-only) Password to keystore||
